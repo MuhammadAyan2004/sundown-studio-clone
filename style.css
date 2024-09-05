@@ -17,6 +17,10 @@ html,body{
     height: 100%;
     
 }
+#main{
+    position: relative;
+    z-index: 10;
+}
 #page1{
     width: 100%;
     min-height: 100vh;
@@ -280,7 +284,7 @@ nav{
         transform: translate(-10%,10%) skew(-10deg);
     }
 }
-#page3{
+.page3{
     background-color:#EFEAE3;
     width: 100%;
     min-height: 100vh;
@@ -374,17 +378,22 @@ nav{
     font-weight: 100;
     font-size: 18px;
 }
+.page4{
+    background-color: #EFEAE3;
+    width: 100%;
+    min-height: 120vh;
+    display: flex;
+    align-items: center;
+}
 .p4-main{
     width: 95%;
     height: 100vh;
     background-color: #0B0500;
-    margin-top: 100px;
+    padding-top: 100px;
     margin-left: 30px;
     border-radius: 20px;
     position: relative;
 }
-
-
 .p4-main .content {
     width: 50%;
     position: absolute;
@@ -426,7 +435,90 @@ nav{
     font-weight: 100; 
     padding-right: 228px;
 }
+.page5{
+    width:100%;
+    height:80vh;
+    background-color: #EFEAE3;
+}
+.swiper {
+    width: 100%;
+  }
 
+  .swiper-slide {
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    border-right : 1px solid grey;
+  }
+
+.page6{
+    width: 100%;
+    height: 200vh;
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 9;
+    bottom: 0px;
+    background-color: #0B0500;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+.footer h1{
+    font-size: 23vw;
+    padding-left: 30px;
+}
+.foot-text{
+    width: 100%;
+    height: 39vh;
+    background-color:#E62E2D;
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.foot-t1 ul li{
+    list-style: none;
+    font-size: 30px;
+    font-family: neu1;
+    font-weight: 600;
+}
+.foot-t2 p{
+    font-size: 20px;
+    font-family: neu1;
+    font-weight: 100;
+}
+.foot-t2 .hy{
+    width: 100%;
+    height: 30px;
+    margin-top:10px;
+}
+.hy input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 20px 20px 20px; 
+}
+.hy input::placeholder{
+    color:rgb(202, 202, 202);
+}
+.last-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 30px;
+    font-size: 12px;
+    border-top: 1px solid grey;
+}
 
 
 

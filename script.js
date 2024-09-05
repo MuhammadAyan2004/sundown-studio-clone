@@ -1,7 +1,8 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main'),
-    smooth: true
-});
+
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('#main'),
+//     smooth: true
+// });
 
 var loc = document.querySelector(".econt")
 var fixed = document.querySelector(".fixed-image")
@@ -45,6 +46,10 @@ document.getElementById("project-btn").addEventListener("click",function(event){
 document.getElementById("execution-btn").addEventListener("click",function(event){
   event.preventDefault();
   document.getElementById("pic").src="images/pic3.AVIF";
-  document.getElementById("text").innerText="We’re with you every step of the way, from the project initiation to launch day. Our production and design teams are onsite to direct and guide the process down to the last point of completion, ensuring success across the built space and experience."
+  document.getElementById("text").innerText="We're with you every step of the way, from the project initiation to launch day. Our production and design teams are onsite to direct and guide the process down to the last point of completion, ensuring success across the built space and experience."
   
-})
+});
+let swiper = new Swiper(".mySwiper", {
+  watchSlidesProgress: true,
+  slidesPerView: 3,
+});
