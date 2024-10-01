@@ -49,7 +49,6 @@ nav{
     font-weight: 200;
     position: relative;
     overflow: hidden;
-    
 }
 .nav-part2 h4::after{
     content: "";
@@ -59,12 +58,11 @@ nav{
     background-color: black;
     left: 0;
     bottom: -100%;
-    border-radius: 50%;
-    transition: all ease 0.3s;
+    border-radius: 50px;
+    transition: all ease 0.5s;
 }
 .nav-part2 h4:hover:after{
     bottom: 0;
-    border-radius: 0;
 }
 .nav-part2 h4 a{
     text-decoration: none;
@@ -203,7 +201,7 @@ nav{
     display: inline-block;
     animation-name: move;
     animation-timing-function: linear;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 .moving-text h1{
@@ -321,7 +319,6 @@ nav{
 .elem:hover .overlay{
     top: 0;
 }
-
 .fixed-image{
     width: 50vh;
     height: 60vh;
@@ -443,14 +440,12 @@ nav{
 .swiper {
     width: 100%;
   }
-
   .swiper-slide {
     height: 300px;
     line-height: 300px;
     text-align: center;
     border-right : 1px solid grey;
   }
-
 .page6{
     width: 100%;
     height: 200vh;
@@ -518,10 +513,5 @@ nav{
     padding: 2px 30px;
     font-size: 12px;
     border-top: 1px solid grey;
+    
 }
-
-
-
-
-
-
